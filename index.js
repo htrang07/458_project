@@ -84,7 +84,7 @@ function map() {
           .style('fill', color(min_value))
           .attr('x', 15)
           .style('alignment-baseline', 'middle')
-          .text("Demolished, -250 Units")
+          .text("Demolished, +101 Units")
 
 //-100
 legend.append('circle')
@@ -96,7 +96,7 @@ legend.append('text')
   .attr('x', 15)
   .style('alignment-baseline', 'middle')
   .attr('y', 25)
-  .text("Demolished, -100 Units")
+  .text("Demolished, 0-100 Units")
 
 
 
