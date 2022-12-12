@@ -59,6 +59,7 @@ function map() {
           tooltip
             .html(
               `<span style="font-size:20px">Address: ${d.properties.ADDRESS}<br></span>
+              <span style="font-size:20px">Address: ${d.properties.DWELTYPE}<br></span>
               <span style="font-size:20px">Net Units: ${d.properties.NET_UNITS}
               <span style="font-size:20px"><br>Value: ${d.properties.VALUE}<br></span>`
             )
