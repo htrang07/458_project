@@ -9,7 +9,7 @@ html, body
   margin: 0;
   float: left;
   font-family: 'Titillium Web', serif;
-    border: 0px solid red;
+    border: 0px solid;
 
 }
 #map {
