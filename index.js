@@ -84,7 +84,7 @@ function map() {
           .style('fill', color(min_value))
           .attr('x', 15)
           .style('alignment-baseline', 'middle')
-          .text("Demolished, -250")
+          .text("Demolished, -250 Units")
 
 //-100
 legend.append('circle')
@@ -96,7 +96,7 @@ legend.append('text')
   .attr('x', 15)
   .style('alignment-baseline', 'middle')
   .attr('y', 25)
-  .text("Demolished, -100")
+  .text("Demolished, -100 Units")
 
 
 
@@ -110,7 +110,7 @@ legend.append('text')
             .attr('x', 15)
             .style('alignment-baseline', 'middle')
             .attr('y', 50)
-            .text(1)
+            .text("1-49 Units")
 
   //50
   legend.append('circle')
@@ -122,7 +122,7 @@ legend.append('text')
     .attr('x', 15)
     .style('alignment-baseline', 'middle')
     .attr('y', 75)
-    .text(50)
+    .text("50-99 Units")
 
 
 
@@ -137,7 +137,7 @@ legend.append('text')
     .attr('x', 15)
     .style('alignment-baseline', 'middle')
     .attr('y', 100)
-    .text(100)
+    .text("100-149 Units")
 
 
 
@@ -151,7 +151,7 @@ legend.append('text')
     .attr('x', 15)
     .style('alignment-baseline', 'middle')
     .attr('y', 125)
-    .text(150)
+    .text("150-199 Units")
 
 //200
 legend.append('circle')
@@ -163,7 +163,7 @@ legend.append('circle')
     .attr('x', 15)
     .style('alignment-baseline', 'middle')
     .attr('y', 150)
-    .text(200)
+    .text("200-299 Units")
 
 
 //300
@@ -176,7 +176,7 @@ legend.append('circle')
     .attr('x', 15)
     .style('alignment-baseline', 'middle')
     .attr('y', 175)
-    .text(300)
+    .text("300-399 Units")
 
 
 
@@ -190,7 +190,7 @@ legend.append('circle')
     .attr('x', 15)
     .style('alignment-baseline', 'middle')
     .attr('y', 200)
-    .text(400)
+    .text("400-499 Units")
 
 
 
@@ -204,7 +204,7 @@ legend.append('circle')
     .attr('x', 15)
     .style('alignment-baseline', 'middle')
     .attr('y', 225)
-    .text(500)
+    .text("500-599 Units")
 
 
 
@@ -218,7 +218,7 @@ legend.append('circle')
               .attr('x', 15)
               .style('alignment-baseline', 'middle')
               .attr('y', 250)
-              .text(max_value)
+              .text("+600 Units")
     });
   });
 }
